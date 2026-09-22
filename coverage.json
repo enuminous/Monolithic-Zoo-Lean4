@@ -1,0 +1,780 @@
+[
+  {
+    "id": 1,
+    "name": "TORTOISE",
+    "module": "Tortoise",
+    "namespace": "Zoo.Tortoise",
+    "repository": "https://github.com/enuminous/Tortoise",
+    "commit": "6658128fd2df96ff6c32fce219bfc9ee3e8876da",
+    "scope": "ordered split; temporal separation contract; Brier gain",
+    "theorems": [
+      "split_reconstructs",
+      "train_precedes_test"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Tortoise"
+  },
+  {
+    "id": 2,
+    "name": "OWL",
+    "module": "Owl",
+    "namespace": "Zoo.Owl",
+    "repository": "https://github.com/enuminous/Owl",
+    "commit": "afe43985e76e74e65ff76e64b4c753eab11f1abc",
+    "scope": "rank aggregation of precomputed component columns; feature extraction and model training not ported",
+    "theorems": [
+      "output_length",
+      "valid_column_count",
+      "report_requires_freeze"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Owl"
+  },
+  {
+    "id": 3,
+    "name": "OCTOPUS",
+    "module": "Octopus",
+    "namespace": "Zoo.Octopus",
+    "repository": "https://github.com/enuminous/Octopus",
+    "commit": "e590a6d9d757357da72f043facc62e22d40df45e",
+    "scope": "rank aggregation of precomputed component columns; feature extraction and model training not ported",
+    "theorems": [
+      "output_length",
+      "valid_column_count",
+      "report_requires_freeze"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Octopus"
+  },
+  {
+    "id": 4,
+    "name": "GECKO",
+    "module": "Gecko",
+    "namespace": "Zoo.Gecko",
+    "repository": "https://github.com/enuminous/Gecko",
+    "commit": "0345f2ed1d98c15306312c828cfe68e6fa8c5c2e",
+    "scope": "rank aggregation of precomputed component columns; feature extraction and model training not ported",
+    "theorems": [
+      "output_length",
+      "valid_column_count",
+      "report_requires_freeze"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Gecko"
+  },
+  {
+    "id": 5,
+    "name": "HIVE",
+    "module": "Hive",
+    "namespace": "Zoo.Hive",
+    "repository": "https://github.com/enuminous/Hive",
+    "commit": "e66e03d67c19f1f1e663a2a7feaea9f21c48384e",
+    "scope": "rank aggregation of precomputed component columns; feature extraction and model training not ported",
+    "theorems": [
+      "output_length",
+      "valid_column_count",
+      "report_requires_freeze"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Hive"
+  },
+  {
+    "id": 6,
+    "name": "EAGLE",
+    "module": "Eagle",
+    "namespace": "Zoo.Eagle",
+    "repository": "https://github.com/enuminous/Eagle",
+    "commit": "d4f6fb0293129de8850fa15667b75aaaa7cc5339",
+    "scope": "rank aggregation of precomputed component columns; feature extraction and model training not ported",
+    "theorems": [
+      "output_length",
+      "valid_column_count",
+      "report_requires_freeze"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Eagle"
+  },
+  {
+    "id": 7,
+    "name": "CRAB",
+    "module": "Crab",
+    "namespace": "Zoo.Crab",
+    "repository": "https://github.com/enuminous/Crab",
+    "commit": "f49f430353c954f54567e754b9bea60b26c40732",
+    "scope": "rank aggregation of precomputed component columns; feature extraction and model training not ported",
+    "theorems": [
+      "output_length",
+      "valid_column_count",
+      "report_requires_freeze"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Crab"
+  },
+  {
+    "id": 8,
+    "name": "SHEPHERD",
+    "module": "Shepherd",
+    "namespace": "Zoo.Shepherd",
+    "repository": "https://github.com/enuminous/Shepherd",
+    "commit": "c875bad6c5185cc3d5813fb097e5ccc2c27b5234",
+    "scope": "rank aggregation of precomputed component columns; feature extraction and model training not ported",
+    "theorems": [
+      "output_length",
+      "valid_column_count",
+      "report_requires_freeze"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Shepherd"
+  },
+  {
+    "id": 9,
+    "name": "PULSE",
+    "module": "Pulse",
+    "namespace": "Zoo.Pulse",
+    "repository": "https://github.com/enuminous/Pulse",
+    "commit": "78b7bd4a4fa1597373e184fbe895a513574c8939",
+    "scope": "rank aggregation of precomputed component columns; feature extraction and model training not ported",
+    "theorems": [
+      "output_length",
+      "valid_column_count",
+      "report_requires_freeze"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Pulse"
+  },
+  {
+    "id": 10,
+    "name": "CAT",
+    "module": "Cat",
+    "namespace": "Zoo.Cat",
+    "repository": "https://github.com/enuminous/Cat",
+    "commit": "9bf56f891b3ac22e38089ade0351852df1670d11",
+    "scope": "ablation penalty and sign classifier; exact-integer sign reference",
+    "theorems": [
+      "positive_removal_hurt",
+      "removal_hurts_iff"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Cat"
+  },
+  {
+    "id": 11,
+    "name": "FOX",
+    "module": "Fox",
+    "namespace": "Zoo.Fox",
+    "repository": "https://github.com/enuminous/Fox",
+    "commit": "b4c317d45b7f2b69e92a657ba8d9ccdb4977a457",
+    "scope": "rank aggregation of precomputed component columns; feature extraction and model training not ported",
+    "theorems": [
+      "output_length",
+      "valid_column_count",
+      "report_requires_freeze"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Fox"
+  },
+  {
+    "id": 12,
+    "name": "SPIDER",
+    "module": "Spider",
+    "namespace": "Zoo.Spider",
+    "repository": "https://github.com/enuminous/Spider",
+    "commit": "fd8f546d528f0c740248baddd6f0ea05e60abc25",
+    "scope": "rank aggregation of precomputed component columns; feature extraction and model training not ported",
+    "theorems": [
+      "output_length",
+      "valid_column_count",
+      "report_requires_freeze"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Spider"
+  },
+  {
+    "id": 13,
+    "name": "RAVEN",
+    "module": "Raven",
+    "namespace": "Zoo.Raven",
+    "repository": "https://github.com/enuminous/Raven",
+    "commit": "d18b4a8e05812ea3d577aa63643071c09fad3ea9",
+    "scope": "rank aggregation of precomputed component columns; feature extraction and model training not ported",
+    "theorems": [
+      "output_length",
+      "valid_column_count",
+      "report_requires_freeze"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Raven"
+  },
+  {
+    "id": 14,
+    "name": "DOLPHIN",
+    "module": "Dolphin",
+    "namespace": "Zoo.Dolphin",
+    "repository": "https://github.com/enuminous/Dolphin",
+    "commit": "718b09ca4966d76e186cda7971d09be2caa39321",
+    "scope": "rank aggregation of precomputed component columns; feature extraction and model training not ported",
+    "theorems": [
+      "output_length",
+      "valid_column_count",
+      "report_requires_freeze"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Dolphin"
+  },
+  {
+    "id": 15,
+    "name": "ANT",
+    "module": "Ant",
+    "namespace": "Zoo.Ant",
+    "repository": "https://github.com/enuminous/Ant",
+    "commit": "e7432f132a47804626322ba7343d187bd2425a75",
+    "scope": "rank aggregation of precomputed component columns; feature extraction and model training not ported",
+    "theorems": [
+      "output_length",
+      "valid_column_count",
+      "report_requires_freeze"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Ant"
+  },
+  {
+    "id": 16,
+    "name": "MOTH",
+    "module": "Moth",
+    "namespace": "Zoo.Moth",
+    "repository": "https://github.com/enuminous/Moth",
+    "commit": "08e5ce7cf219f6009b446829110c3399b658a5bd",
+    "scope": "rank aggregation of precomputed component columns; feature extraction and model training not ported",
+    "theorems": [
+      "output_length",
+      "valid_column_count",
+      "report_requires_freeze"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Moth"
+  },
+  {
+    "id": 17,
+    "name": "SHARK",
+    "module": "Shark",
+    "namespace": "Zoo.Shark",
+    "repository": "https://github.com/enuminous/Shark",
+    "commit": "13ef3943eb389a157f214fc4db054e926b22aa5a",
+    "scope": "rank aggregation of precomputed component columns; feature extraction and model training not ported",
+    "theorems": [
+      "output_length",
+      "valid_column_count",
+      "report_requires_freeze"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Shark"
+  },
+  {
+    "id": 18,
+    "name": "PENGUIN",
+    "module": "Penguin",
+    "namespace": "Zoo.Penguin",
+    "repository": "https://github.com/enuminous/Penguin",
+    "commit": "1a99e0c1eb1c6902d2909721aae9ac8e76bfb75e",
+    "scope": "rank aggregation of precomputed component columns; feature extraction and model training not ported",
+    "theorems": [
+      "output_length",
+      "valid_column_count",
+      "report_requires_freeze"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Penguin"
+  },
+  {
+    "id": 19,
+    "name": "BAT",
+    "module": "Bat",
+    "namespace": "Zoo.Bat",
+    "repository": "https://github.com/enuminous/Bat",
+    "commit": "67c2c0e3cd6fb035a0e47862ec3f7e64729fa92d",
+    "scope": "verdict kernel with source placebo precedence; fitting excluded",
+    "theorems": [
+      "placebo_has_priority"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Bat"
+  },
+  {
+    "id": 20,
+    "name": "HEDGEHOG",
+    "module": "Hedgehog",
+    "namespace": "Zoo.Hedgehog",
+    "repository": "https://github.com/enuminous/Hedgehog",
+    "commit": "2e9b46039a6422961f9f08fb6457e2634a4c1de4",
+    "scope": "generalization verdict and environment separation obligation; training excluded",
+    "theorems": [
+      "heldout_not_development"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Hedgehog"
+  },
+  {
+    "id": 21,
+    "name": "CROCODILE",
+    "module": "Crocodile",
+    "namespace": "Zoo.Crocodile",
+    "repository": "https://github.com/enuminous/Crocodile",
+    "commit": "2407241cc2d77f58bc044f9be6bff8ceb5c0b55a",
+    "scope": "difference-in-differences kernel and conditional identification contract",
+    "theorems": [
+      "common_shift_cancels",
+      "causal_requires_design"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Crocodile"
+  },
+  {
+    "id": 22,
+    "name": "DRAGON",
+    "module": "Dragon",
+    "namespace": "Zoo.Dragon",
+    "repository": "https://github.com/enuminous/Dragon",
+    "commit": "9ac2ffe7a271e5375b3bb5a2e6936c822fcc711f",
+    "scope": "rank aggregation of precomputed component columns; feature extraction and model training not ported",
+    "theorems": [
+      "output_length",
+      "valid_column_count",
+      "report_requires_freeze"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Dragon"
+  },
+  {
+    "id": 23,
+    "name": "TURTLE",
+    "module": "Turtle",
+    "namespace": "Zoo.Turtle",
+    "repository": "https://github.com/enuminous/Turtle",
+    "commit": "ff98950fcb40f8a8c151a5c9466d11a240146beb",
+    "scope": "summary verdict and veto precedence; group normalization supplied",
+    "theorems": [
+      "applicable_veto_blocks_support",
+      "empty_is_insufficient"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Turtle"
+  },
+  {
+    "id": 24,
+    "name": "MAGPIE",
+    "module": "Magpie",
+    "namespace": "Zoo.Magpie",
+    "repository": "https://github.com/enuminous/Magpie",
+    "commit": "342438c179832be2fe8b6dbdf1b4b5b0097df2ce",
+    "scope": "groundedness and history-dependent alarm; entropy/storage excluded",
+    "theorems": [
+      "no_history_no_alarm"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Magpie"
+  },
+  {
+    "id": 25,
+    "name": "WOLF",
+    "module": "Wolf",
+    "namespace": "Zoo.Wolf",
+    "repository": "https://github.com/enuminous/Wolf",
+    "commit": "7e4fd6d2b7c8829138a5f2d58f1b4cf39ed208c4",
+    "scope": "local channel contribution, weight, EMA and alarm contract; graph aggregation supplied",
+    "theorems": [
+      "alarm_requires_distributed_support"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Wolf"
+  },
+  {
+    "id": 26,
+    "name": "ELEPHANT",
+    "module": "Elephant",
+    "namespace": "Zoo.Elephant",
+    "repository": "https://github.com/enuminous/Elephant",
+    "commit": "a30bd9ae77d7df31f35b533e5310eb7e06aa3d40",
+    "scope": "active-event filter and fuel-bounded lineage abstraction; full memory API excluded",
+    "theorems": [
+      "current_members_active",
+      "zero_fuel_stops"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Elephant"
+  },
+  {
+    "id": 27,
+    "name": "CHAMELEON",
+    "module": "Chameleon",
+    "namespace": "Zoo.Chameleon",
+    "repository": "https://github.com/enuminous/Chameleon",
+    "commit": "75095bd9834953d52a88fd8c64f75393e15d880f",
+    "scope": "unexplained/noise-adjusted excess; supplied centroid distances",
+    "theorems": [
+      "excess_nonnegative",
+      "expected_explains"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Chameleon"
+  },
+  {
+    "id": 28,
+    "name": "JELLYFISH",
+    "module": "Jellyfish",
+    "namespace": "Zoo.Jellyfish",
+    "repository": "https://github.com/enuminous/Jellyfish",
+    "commit": "7119a66a75092354deee27dcb89f1d20add4e4e6",
+    "scope": "dynamic edge weight, flow, next health and harm; graph aggregation supplied",
+    "theorems": [
+      "node_count_preserved"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Jellyfish"
+  },
+  {
+    "id": 29,
+    "name": "BEAVER",
+    "module": "Beaver",
+    "namespace": "Zoo.Beaver",
+    "repository": "https://github.com/enuminous/Beaver",
+    "commit": "f6255d49e71e31c325d474039d4e01163266608b",
+    "scope": "acceptance contract including bounds and rollback flags; external repair not certified",
+    "theorems": [
+      "accepted_requires_rollback",
+      "accepted_requires_bounds"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Beaver"
+  },
+  {
+    "id": 30,
+    "name": "MANTIS",
+    "module": "Mantis",
+    "namespace": "Zoo.Mantis",
+    "repository": "https://github.com/enuminous/Mantis",
+    "commit": "a9fd85eb62a22d3667201dd6747bf8d296ad9083",
+    "scope": "calibrated z-score aggregation and state decision; baseline fitting supplied",
+    "theorems": [
+      "unready_calibrates"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Mantis"
+  },
+  {
+    "id": 31,
+    "name": "BISON",
+    "module": "Bison",
+    "namespace": "Zoo.Bison",
+    "repository": "https://github.com/enuminous/Bison",
+    "commit": "588acafecff764cb417637861d6d9a1e6bdf502f",
+    "scope": "single-component queue transition; exact natural-number capacity bound",
+    "theorems": [
+      "queue_bounded"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Bison"
+  },
+  {
+    "id": 32,
+    "name": "WEASEL",
+    "module": "Weasel",
+    "namespace": "Zoo.Weasel",
+    "repository": "https://github.com/enuminous/Weasel",
+    "commit": "fa2d91ae108f6b3bb515fb16ff0c22ae02324b06",
+    "scope": "bounded finding filter; target search/enumeration remains external",
+    "theorems": [
+      "retained_within_budget"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Weasel"
+  },
+  {
+    "id": 33,
+    "name": "SALMON",
+    "module": "Salmon",
+    "namespace": "Zoo.Salmon",
+    "repository": "https://github.com/enuminous/Salmon",
+    "commit": "b141f6ccd5b0e789ceddaa91ec9e664cd02c4981",
+    "scope": "unresolved-mass kernel and fuel-bounded trace abstraction; weighted tracing excluded",
+    "theorems": [
+      "exhaustion_not_origin"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Salmon"
+  },
+  {
+    "id": 34,
+    "name": "ORCA",
+    "module": "Orca",
+    "namespace": "Zoo.Orca",
+    "repository": "https://github.com/enuminous/Orca",
+    "commit": "a5caecf5a81b05495904528b0135fd272daaf90e",
+    "scope": "handoff checks and aggregate coordination formula; pairwise metrics supplied",
+    "theorems": [
+      "complete_requires_ack"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Orca"
+  },
+  {
+    "id": 35,
+    "name": "MOLE",
+    "module": "Mole",
+    "namespace": "Zoo.Mole",
+    "repository": "https://github.com/enuminous/Mole",
+    "commit": "523f8017851070f2c5d0249da4601357b24dda24",
+    "scope": "observability gap and coverage-gated hidden-failure flag; indicators supplied",
+    "theorems": [
+      "no_indicators_no_failure_claim"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Mole"
+  },
+  {
+    "id": 36,
+    "name": "LYNX",
+    "module": "Lynx",
+    "namespace": "Zoo.Lynx",
+    "repository": "https://github.com/enuminous/Lynx",
+    "commit": "d2f705136a616190f2c135ec9fa0df57b5c34020",
+    "scope": "novelty, yield and emergence contract; reference distances supplied",
+    "theorems": [
+      "emergent_requires_replication"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Lynx"
+  },
+  {
+    "id": 37,
+    "name": "HORSE",
+    "module": "Horse",
+    "namespace": "Zoo.Horse",
+    "repository": "https://github.com/enuminous/Horse",
+    "commit": "e55b6881a1d3a0e10fb32e474a3612aa4bf0ab69",
+    "scope": "trust/workload/joint-effectiveness kernels and handoff contract",
+    "theorems": [
+      "handoff_retains_uncertainty"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Horse"
+  },
+  {
+    "id": 38,
+    "name": "TERMITE",
+    "module": "Termite",
+    "namespace": "Zoo.Termite",
+    "repository": "https://github.com/enuminous/Termite",
+    "commit": "76f70136ebf3b9e8bf4f38d971cce07cb2e73b0f",
+    "scope": "agent update and synchronous mapping; graph weighted inputs supplied",
+    "theorems": [
+      "population_preserved"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Termite"
+  },
+  {
+    "id": 39,
+    "name": "PHOENIX",
+    "module": "Phoenix",
+    "namespace": "Zoo.Phoenix",
+    "repository": "https://github.com/enuminous/Phoenix",
+    "commit": "20079489fe4c180105d43b4382733a5506e27beb",
+    "scope": "recovery completeness and hold-window predicate; fidelity inputs supplied",
+    "theorems": [
+      "stable_requires_every_checkpoint"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Phoenix"
+  },
+  {
+    "id": 40,
+    "name": "COBRA",
+    "module": "Cobra",
+    "namespace": "Zoo.Cobra",
+    "repository": "https://github.com/enuminous/Cobra",
+    "commit": "1af3a2016813a04a414be3c79a2b40b158154783",
+    "scope": "persistent/proxy divergence and risk kernels; deltas supplied",
+    "theorems": [
+      "nonimproving_proxy_zero"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Cobra"
+  },
+  {
+    "id": 41,
+    "name": "WHALE",
+    "module": "Whale",
+    "namespace": "Zoo.Whale",
+    "repository": "https://github.com/enuminous/Whale",
+    "commit": "c64bbfb54fce0d4dba2eb3d9a285bba7c7605d39",
+    "scope": "cumulative deviation, history gap and stability formula; slope supplied",
+    "theorems": [
+      "empty_history_zero_gap"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Whale"
+  },
+  {
+    "id": 42,
+    "name": "FALCON",
+    "module": "Falcon",
+    "namespace": "Zoo.Falcon",
+    "repository": "https://github.com/enuminous/Falcon",
+    "commit": "bf74635c358b997983a3ee19a4e7c9bd23bc8436",
+    "scope": "latency/missed/reaction-margin kernel; streaming threshold monitor excluded",
+    "theorems": [
+      "positive_margin_iff_on_time",
+      "absent_alarm_no_timing"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Falcon"
+  },
+  {
+    "id": 43,
+    "name": "RHINO",
+    "module": "Rhino",
+    "namespace": "Zoo.Rhino",
+    "repository": "https://github.com/enuminous/Rhino",
+    "commit": "8718a3132ffc46ec46564fc0d4fd086637235cca",
+    "scope": "retention, amplification and graceful-failure kernels; invariants supplied",
+    "theorems": [
+      "survives_selected_invariant"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Rhino"
+  },
+  {
+    "id": 44,
+    "name": "BONOBO",
+    "module": "Bonobo",
+    "namespace": "Zoo.Bonobo",
+    "repository": "https://github.com/enuminous/Bonobo",
+    "commit": "40a3c44a997b5e66ebb2c2dbae4d33ce779e630a",
+    "scope": "gain, exploitation and cooperation score; dispersion supplied",
+    "theorems": [
+      "mutual_gain_excludes_loser"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Bonobo"
+  },
+  {
+    "id": 45,
+    "name": "AXOLOTL",
+    "module": "Axolotl",
+    "namespace": "Zoo.Axolotl",
+    "repository": "https://github.com/enuminous/Axolotl",
+    "commit": "af8e011f0be6f5852b3d102d4004aaf86e2bcfd4",
+    "scope": "recovery, efficiency and resilience; transformation/invariants supplied",
+    "theorems": [
+      "acceptable_retains_invariants"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Axolotl"
+  },
+  {
+    "id": 46,
+    "name": "BUTTERFLY",
+    "module": "Butterfly",
+    "namespace": "Zoo.Butterfly",
+    "repository": "https://github.com/enuminous/Butterfly",
+    "commit": "5952c7f260f65835e1a67d4502aac1e4015bfe49",
+    "scope": "layer update, amplification and bounded trajectory; graph comparison excluded",
+    "theorems": [
+      "run_records_initial_and_steps"
+    ],
+    "proof_status": "written; not compiler-checked in this environment",
+    "numbering": "main-sequence reference",
+    "source_bundle": "UPSTREAM_SOURCES.json",
+    "source_key": "Butterfly"
+  }
+]

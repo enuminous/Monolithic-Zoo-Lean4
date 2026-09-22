@@ -1,0 +1,315 @@
+[
+  {
+    "name": "Owl",
+    "source": "signals.py",
+    "base": [
+      "out['contradiction'].clip(lower=0)",
+      "out['local_instability'].clip(lower=0)"
+    ],
+    "horizon": [
+      "out[f'contradiction_mean_{h}'].clip(lower=0)",
+      "out[f'instability_mean_{h}'].clip(lower=0)",
+      "out[f'contradiction_slope_{h}'].clip(lower=0)",
+      "out[f'instability_slope_{h}'].clip(lower=0)"
+    ],
+    "scope": "final rank aggregation; features supplied"
+  },
+  {
+    "name": "Octopus",
+    "source": "latent_state.py",
+    "base": [
+      "graph_features['distributed_contradiction']",
+      "graph_features['distributed_dispersion']",
+      "graph_features['missing_fraction']"
+    ],
+    "horizon": [
+      "graph_features[f'dc_mean_{h}']",
+      "graph_features[f'dd_mean_{h}']",
+      "graph_features[f'missing_mean_{h}']"
+    ],
+    "scope": "final rank aggregation; features supplied"
+  },
+  {
+    "name": "Gecko",
+    "source": "features.py",
+    "base": [
+      "out['coherence_loss']",
+      "out['kinetic_outlier']",
+      "out['gradient_loss']",
+      "out['kinetic_gradient']"
+    ],
+    "horizon": [
+      "out[f'coherence_loss_mean_{h}']",
+      "out[f'kinetic_outlier_mean_{h}']",
+      "out[f'gradient_loss_mean_{h}']",
+      "out[f'kinetic_gradient_mean_{h}']"
+    ],
+    "scope": "final rank aggregation; features supplied"
+  },
+  {
+    "name": "Hive",
+    "source": "features.py",
+    "base": [
+      "out['interaction_stress']",
+      "out['interaction_variance']",
+      "out['delivery_pressure']",
+      "out['coordination_load']",
+      "out['throughput_conflict']"
+    ],
+    "horizon": [
+      "out[f'stress_mean_{h}']",
+      "out[f'pressure_mean_{h}']",
+      "out[f'coordination_mean_{h}']",
+      "out[f'conflict_mean_{h}']"
+    ],
+    "scope": "final rank aggregation; features supplied"
+  },
+  {
+    "name": "Eagle",
+    "source": "features.py",
+    "base": [
+      "out['gradient_loss']",
+      "out['snapshot_anomaly']",
+      "out['gradient_disagreement']",
+      "out['gradient_acceleration']"
+    ],
+    "horizon": [
+      "out[f'loss_mean_{h}']",
+      "out[f'loss_slope_{h}'].clip(lower=0)",
+      "out[f'anomaly_mean_{h}']",
+      "out[f'disagreement_mean_{h}']"
+    ],
+    "scope": "final rank aggregation; features supplied"
+  },
+  {
+    "name": "Crab",
+    "source": "features.py",
+    "base": [
+      "out['contradiction_mean']",
+      "out['contradiction_max']",
+      "out['contradiction_variance']",
+      "out['contradiction_velocity'].clip(lower=0)",
+      "out['contradiction_acceleration'].clip(lower=0)",
+      "out['consensus_instability']"
+    ],
+    "horizon": [
+      "out[f'contradiction_mean_{h}']",
+      "out[f'contradiction_max_{h}']",
+      "out[f'consensus_instability_{h}']",
+      "out[f'contradiction_velocity_{h}'].clip(lower=0)"
+    ],
+    "scope": "final rank aggregation; features supplied"
+  },
+  {
+    "name": "Shepherd",
+    "source": "features.py",
+    "base": [
+      "out['error_pressure']",
+      "out['recovery_deficit']",
+      "out['progress_stall']",
+      "out['trajectory_contradiction']",
+      "out['error_recurrence']",
+      "out['hazard_velocity'].clip(lower=0)",
+      "out['hazard_acceleration'].clip(lower=0)"
+    ],
+    "horizon": [
+      "out[f'error_pressure_mean_{h}']",
+      "out[f'recovery_deficit_mean_{h}']",
+      "out[f'progress_stall_mean_{h}']",
+      "out[f'contradiction_mean_{h}']",
+      "out[f'recurrence_mean_{h}']"
+    ],
+    "scope": "final rank aggregation; features supplied"
+  },
+  {
+    "name": "Pulse",
+    "source": "features.py",
+    "base": [
+      "out['uncertainty_state']",
+      "out['reviewer_instability']",
+      "out['safety_pressure']",
+      "out['distribution_pressure']",
+      "out['longitudinal_contradiction']",
+      "out['safety_velocity'].clip(lower=0)",
+      "out['safety_acceleration'].clip(lower=0)"
+    ],
+    "horizon": [
+      "out[f'uncertainty_mean_{h}']",
+      "out[f'reviewer_mean_{h}']",
+      "out[f'safety_mean_{h}']",
+      "out[f'distribution_mean_{h}']",
+      "out[f'contradiction_mean_{h}']"
+    ],
+    "scope": "final rank aggregation; features supplied"
+  },
+  {
+    "name": "Fox",
+    "source": "features.py",
+    "base": [
+      "out['feedback_gain_proxy']",
+      "out['feedback_peak']",
+      "out['feedback_dispersion']",
+      "out['oscillation_amplitude']",
+      "out['damping_loss']",
+      "out['overshoot']"
+    ],
+    "horizon": [
+      "out[f'gain_mean_{h}']",
+      "out[f'osc_mean_{h}']",
+      "out[f'damping_mean_{h}']",
+      "out[f'overshoot_mean_{h}']"
+    ],
+    "scope": "final rank aggregation; features supplied"
+  },
+  {
+    "name": "Spider",
+    "source": "features.py",
+    "base": [
+      "out['edge_stress_mean']",
+      "out['edge_stress_max']",
+      "out['edge_stress_dispersion']",
+      "out['edge_stress_concentration']",
+      "out['edge_velocity_positive']",
+      "out['local_global_divergence']"
+    ],
+    "horizon": [
+      "out[f'stress_mean_{h}']",
+      "out[f'stress_max_{h}']",
+      "out[f'velocity_mean_{h}']",
+      "out[f'divergence_mean_{h}']"
+    ],
+    "scope": "final rank aggregation; features supplied"
+  },
+  {
+    "name": "Raven",
+    "source": "features.py",
+    "base": [
+      "out['residual_mean_abs']",
+      "out['residual_variance']",
+      "out['residual_coupling']",
+      "out['residual_persistence']"
+    ],
+    "horizon": [
+      "out[f'residual_mean_{h}']",
+      "out[f'residual_var_{h}']",
+      "out[f'residual_velocity_{h}'].abs()"
+    ],
+    "scope": "final rank aggregation; features supplied"
+  },
+  {
+    "name": "Dolphin",
+    "source": "features.py",
+    "base": [
+      "out['relational_residual_mean']",
+      "out['relational_residual_max']",
+      "out['relational_dispersion']",
+      "out['reconstruction_error']",
+      "out['missing_fraction']",
+      "out['latent_velocity'].clip(lower=0)",
+      "out['latent_acceleration'].clip(lower=0)"
+    ],
+    "horizon": [
+      "out[f'residual_mean_{h}']",
+      "out[f'reconstruction_mean_{h}']",
+      "out[f'missing_mean_{h}']",
+      "out[f'velocity_mean_{h}'].clip(lower=0)"
+    ],
+    "scope": "final rank aggregation; features supplied"
+  },
+  {
+    "name": "Ant",
+    "source": "features.py",
+    "base": [
+      "out['propagation_pressure_mean']",
+      "out['propagation_pressure_max']",
+      "out['propagation_dispersion']",
+      "out['bottleneck_concentration']",
+      "out['network_local_risk']",
+      "out['network_risk_divergence']",
+      "out['propagation_velocity'].clip(lower=0)"
+    ],
+    "horizon": [
+      "out[f'pressure_mean_{h}']",
+      "out[f'bottleneck_mean_{h}']",
+      "out[f'local_risk_mean_{h}']",
+      "out[f'velocity_mean_{h}'].clip(lower=0)"
+    ],
+    "scope": "final rank aggregation; features supplied"
+  },
+  {
+    "name": "Moth",
+    "source": "features.py",
+    "base": [
+      "out['cross_scale_agreement'].abs()",
+      "out['recurrence_mean']",
+      "out['recurrence_peak']",
+      "out['scale_concentration']",
+      "out['oscillation_power_mean']",
+      "out['oscillation_growth']",
+      "out['recurrence_change']"
+    ],
+    "horizon": [],
+    "scope": "final rank aggregation; features supplied"
+  },
+  {
+    "name": "Shark",
+    "source": "features.py",
+    "base": [
+      "out['kinematic_contradiction']",
+      "out['control_oscillation']",
+      "out['control_reversal_rate']",
+      "out['boundary_pressure']",
+      "out['obstacle_pressure']",
+      "out['recovery_pressure']",
+      "out['hazard_velocity'].clip(lower=0)",
+      "out['hazard_acceleration'].clip(lower=0)",
+      "out['recursive_hazard']"
+    ],
+    "horizon": [
+      "out[f'contradiction_mean_{h}']",
+      "out[f'oscillation_mean_{h}']",
+      "out[f'boundary_mean_{h}']",
+      "out[f'recovery_mean_{h}']"
+    ],
+    "scope": "final rank aggregation; features supplied"
+  },
+  {
+    "name": "Penguin",
+    "source": "features.py",
+    "base": [
+      "out['noise_variance']",
+      "out['gradient_instability']",
+      "out['cross_channel_disagreement']",
+      "out['entropy_proxy']",
+      "out['scale_drift']",
+      "1.0 / (out['snr_proxy'] + EPS)"
+    ],
+    "horizon": [
+      "out[f'noise_mean_{h}']",
+      "1.0 / (out[f'snr_mean_{h}'] + EPS)",
+      "out[f'entropy_mean_{h}']",
+      "out[f'gradient_mean_{h}']"
+    ],
+    "scope": "final rank aggregation; features supplied"
+  },
+  {
+    "name": "Dragon",
+    "source": "features.py",
+    "base": [
+      "out['escape_pressure']",
+      "out['assigned_distance']",
+      "out['velocity']",
+      "out['acceleration']",
+      "out['direction_change']",
+      "1.0 / (out['regime_run_length'] + 1.0)",
+      "1.0 - out['recursive_attractor_strength'].rank(pct=True)"
+    ],
+    "horizon": [
+      "out[f'distance_mean_{h}']",
+      "out[f'escape_mean_{h}']",
+      "out[f'velocity_mean_{h}']",
+      "1.0 - out[f'persistence_mean_{h}']"
+    ],
+    "scope": "final rank aggregation; features supplied"
+  }
+]

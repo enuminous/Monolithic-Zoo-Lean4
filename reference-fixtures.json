@@ -1,0 +1,542 @@
+[
+  {
+    "label": "magpie.groundedness",
+    "expression": "Magpie.groundedness \u27e80.9,0.8,0.7,0.6,0.2,0.1,0.3,none,0.25\u27e9",
+    "expected": 0.7777777777774897,
+    "kind": "near"
+  },
+  {
+    "label": "wolf.update",
+    "expression": "Wolf.update 0.85 0.0 1.0",
+    "expected": 0.15000000000000002,
+    "kind": "near"
+  },
+  {
+    "label": "chameleon.noiseAdjusted",
+    "expression": "Chameleon.noiseAdjusted 1.0 0.0",
+    "expected": 1.0,
+    "kind": "near"
+  },
+  {
+    "label": "jellyfish.dynamicWeight",
+    "expression": "Jellyfish.dynamicWeight \u27e80.4,0.2,0.8\u27e9 0.5",
+    "expected": 0.4,
+    "kind": "near"
+  },
+  {
+    "label": "jellyfish.nextHealth",
+    "expression": "Jellyfish.nextHealth 0.9 0.5 0.2",
+    "expected": 0.8,
+    "kind": "near"
+  },
+  {
+    "label": "bison.served",
+    "expression": "(Bison.step \u27e810.0,2.0,3.0,5.0\u27e9).served",
+    "expected": 3,
+    "kind": "near"
+  },
+  {
+    "label": "bison.queue",
+    "expression": "(Bison.step \u27e810.0,2.0,3.0,5.0\u27e9).queue",
+    "expected": 5,
+    "kind": "near"
+  },
+  {
+    "label": "bison.dropped",
+    "expression": "(Bison.step \u27e810.0,2.0,3.0,5.0\u27e9).dropped",
+    "expected": 4.0,
+    "kind": "near"
+  },
+  {
+    "label": "orca.handoff",
+    "expression": "Orca.handoffIntegrity \u27e8true,false,true,true\u27e9",
+    "expected": 0.75,
+    "kind": "near"
+  },
+  {
+    "label": "lynx.novelty",
+    "expression": "Lynx.novelty \u27e82.0,2.0,0.5,0.8,0.9,0.5,0.5,0.5,0.4,0.6\u27e9",
+    "expected": 1.75,
+    "kind": "near"
+  },
+  {
+    "label": "lynx.yield",
+    "expression": "Lynx.latentYield \u27e82.0,2.0,0.5,0.8,0.9,0.5,0.5,0.5,0.4,0.6\u27e9",
+    "expected": 1.2600000000000002,
+    "kind": "near"
+  },
+  {
+    "label": "horse.workload",
+    "expression": "Horse.workloadPenalty 0.8 0.7 0.2",
+    "expected": 0.3500000000000001,
+    "kind": "near"
+  },
+  {
+    "label": "termite.step",
+    "expression": "Termite.stepAgent \u27e80.2,0.5,0.1\u27e9 0.8 1.0",
+    "expected": 0.6,
+    "kind": "near"
+  },
+  {
+    "label": "phoenix.completeness",
+    "expression": "Phoenix.completeness 0.5 1.0 0.8",
+    "expected": 0.74,
+    "kind": "near"
+  },
+  {
+    "label": "cobra.risk",
+    "expression": "Cobra.risk \u27e80.0,0.8,0.3,0.0,0.0,0.2,0.9,0.8\u27e9",
+    "expected": 0.1566,
+    "kind": "near"
+  },
+  {
+    "label": "whale.deviation",
+    "expression": "Whale.cumulativeDeviation [1.0,2.0,4.0] 1.0",
+    "expected": 1.3333333333333333,
+    "kind": "near"
+  },
+  {
+    "label": "whale.gap",
+    "expression": "Whale.historyGap [1.0,2.0,4.0] 1",
+    "expected": 1.6666666666666665,
+    "kind": "near"
+  },
+  {
+    "label": "rhino.retention",
+    "expression": "Rhino.retention 2.0 1.0",
+    "expected": 0.5,
+    "kind": "near"
+  },
+  {
+    "label": "axolotl.recovery",
+    "expression": "Axolotl.recovery \u27e81.0,0.2,0.8,0.3,0.3,1.0\u27e9",
+    "expected": 0.7499999990625001,
+    "kind": "near"
+  },
+  {
+    "label": "axolotl.efficiency",
+    "expression": "Axolotl.efficiency \u27e81.0,0.2,0.8,0.3,0.3,1.0\u27e9",
+    "expected": 2.0000000000000004,
+    "kind": "near"
+  },
+  {
+    "label": "axolotl.resilience",
+    "expression": "Axolotl.resilience \u27e81.0,0.2,0.8,0.3,0.3,1.0\u27e9",
+    "expected": 0.7599999995500001,
+    "kind": "near"
+  },
+  {
+    "label": "butterfly.step",
+    "expression": "Butterfly.stepLayer \u27e81.2,0.1,0.5,1.0\u27e9 0.0",
+    "expected": 0.12,
+    "kind": "near"
+  },
+  {
+    "label": "owl.rank0",
+    "expression": "((Owl.run \u27e8\u27e8List.replicate (Owl.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 0 0.0)",
+    "expected": 0.25,
+    "kind": "near"
+  },
+  {
+    "label": "owl.rank1",
+    "expression": "((Owl.run \u27e8\u27e8List.replicate (Owl.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 1 0.0)",
+    "expected": 0.625,
+    "kind": "near"
+  },
+  {
+    "label": "owl.rank2",
+    "expression": "((Owl.run \u27e8\u27e8List.replicate (Owl.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 2 0.0)",
+    "expected": 0.625,
+    "kind": "near"
+  },
+  {
+    "label": "owl.rank3",
+    "expression": "((Owl.run \u27e8\u27e8List.replicate (Owl.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 3 0.0)",
+    "expected": 1.0,
+    "kind": "near"
+  },
+  {
+    "label": "octopus.rank0",
+    "expression": "((Octopus.run \u27e8\u27e8List.replicate (Octopus.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 0 0.0)",
+    "expected": 0.25,
+    "kind": "near"
+  },
+  {
+    "label": "octopus.rank1",
+    "expression": "((Octopus.run \u27e8\u27e8List.replicate (Octopus.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 1 0.0)",
+    "expected": 0.625,
+    "kind": "near"
+  },
+  {
+    "label": "octopus.rank2",
+    "expression": "((Octopus.run \u27e8\u27e8List.replicate (Octopus.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 2 0.0)",
+    "expected": 0.625,
+    "kind": "near"
+  },
+  {
+    "label": "octopus.rank3",
+    "expression": "((Octopus.run \u27e8\u27e8List.replicate (Octopus.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 3 0.0)",
+    "expected": 1.0,
+    "kind": "near"
+  },
+  {
+    "label": "gecko.rank0",
+    "expression": "((Gecko.run \u27e8\u27e8List.replicate (Gecko.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 0 0.0)",
+    "expected": 0.25,
+    "kind": "near"
+  },
+  {
+    "label": "gecko.rank1",
+    "expression": "((Gecko.run \u27e8\u27e8List.replicate (Gecko.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 1 0.0)",
+    "expected": 0.625,
+    "kind": "near"
+  },
+  {
+    "label": "gecko.rank2",
+    "expression": "((Gecko.run \u27e8\u27e8List.replicate (Gecko.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 2 0.0)",
+    "expected": 0.625,
+    "kind": "near"
+  },
+  {
+    "label": "gecko.rank3",
+    "expression": "((Gecko.run \u27e8\u27e8List.replicate (Gecko.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 3 0.0)",
+    "expected": 1.0,
+    "kind": "near"
+  },
+  {
+    "label": "hive.rank0",
+    "expression": "((Hive.run \u27e8\u27e8List.replicate (Hive.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 0 0.0)",
+    "expected": 0.25,
+    "kind": "near"
+  },
+  {
+    "label": "hive.rank1",
+    "expression": "((Hive.run \u27e8\u27e8List.replicate (Hive.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 1 0.0)",
+    "expected": 0.625,
+    "kind": "near"
+  },
+  {
+    "label": "hive.rank2",
+    "expression": "((Hive.run \u27e8\u27e8List.replicate (Hive.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 2 0.0)",
+    "expected": 0.625,
+    "kind": "near"
+  },
+  {
+    "label": "hive.rank3",
+    "expression": "((Hive.run \u27e8\u27e8List.replicate (Hive.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 3 0.0)",
+    "expected": 1.0,
+    "kind": "near"
+  },
+  {
+    "label": "eagle.rank0",
+    "expression": "((Eagle.run \u27e8\u27e8List.replicate (Eagle.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 0 0.0)",
+    "expected": 0.25,
+    "kind": "near"
+  },
+  {
+    "label": "eagle.rank1",
+    "expression": "((Eagle.run \u27e8\u27e8List.replicate (Eagle.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 1 0.0)",
+    "expected": 0.625,
+    "kind": "near"
+  },
+  {
+    "label": "eagle.rank2",
+    "expression": "((Eagle.run \u27e8\u27e8List.replicate (Eagle.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 2 0.0)",
+    "expected": 0.625,
+    "kind": "near"
+  },
+  {
+    "label": "eagle.rank3",
+    "expression": "((Eagle.run \u27e8\u27e8List.replicate (Eagle.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 3 0.0)",
+    "expected": 1.0,
+    "kind": "near"
+  },
+  {
+    "label": "crab.rank0",
+    "expression": "((Crab.run \u27e8\u27e8List.replicate (Crab.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 0 0.0)",
+    "expected": 0.25,
+    "kind": "near"
+  },
+  {
+    "label": "crab.rank1",
+    "expression": "((Crab.run \u27e8\u27e8List.replicate (Crab.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 1 0.0)",
+    "expected": 0.625,
+    "kind": "near"
+  },
+  {
+    "label": "crab.rank2",
+    "expression": "((Crab.run \u27e8\u27e8List.replicate (Crab.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 2 0.0)",
+    "expected": 0.625,
+    "kind": "near"
+  },
+  {
+    "label": "crab.rank3",
+    "expression": "((Crab.run \u27e8\u27e8List.replicate (Crab.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 3 0.0)",
+    "expected": 1.0,
+    "kind": "near"
+  },
+  {
+    "label": "shepherd.rank0",
+    "expression": "((Shepherd.run \u27e8\u27e8List.replicate (Shepherd.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 0 0.0)",
+    "expected": 0.25,
+    "kind": "near"
+  },
+  {
+    "label": "shepherd.rank1",
+    "expression": "((Shepherd.run \u27e8\u27e8List.replicate (Shepherd.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 1 0.0)",
+    "expected": 0.625,
+    "kind": "near"
+  },
+  {
+    "label": "shepherd.rank2",
+    "expression": "((Shepherd.run \u27e8\u27e8List.replicate (Shepherd.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 2 0.0)",
+    "expected": 0.625,
+    "kind": "near"
+  },
+  {
+    "label": "shepherd.rank3",
+    "expression": "((Shepherd.run \u27e8\u27e8List.replicate (Shepherd.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 3 0.0)",
+    "expected": 1.0,
+    "kind": "near"
+  },
+  {
+    "label": "pulse.rank0",
+    "expression": "((Pulse.run \u27e8\u27e8List.replicate (Pulse.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 0 0.0)",
+    "expected": 0.25,
+    "kind": "near"
+  },
+  {
+    "label": "pulse.rank1",
+    "expression": "((Pulse.run \u27e8\u27e8List.replicate (Pulse.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 1 0.0)",
+    "expected": 0.625,
+    "kind": "near"
+  },
+  {
+    "label": "pulse.rank2",
+    "expression": "((Pulse.run \u27e8\u27e8List.replicate (Pulse.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 2 0.0)",
+    "expected": 0.625,
+    "kind": "near"
+  },
+  {
+    "label": "pulse.rank3",
+    "expression": "((Pulse.run \u27e8\u27e8List.replicate (Pulse.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 3 0.0)",
+    "expected": 1.0,
+    "kind": "near"
+  },
+  {
+    "label": "fox.rank0",
+    "expression": "((Fox.run \u27e8\u27e8List.replicate (Fox.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 0 0.0)",
+    "expected": 0.25,
+    "kind": "near"
+  },
+  {
+    "label": "fox.rank1",
+    "expression": "((Fox.run \u27e8\u27e8List.replicate (Fox.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 1 0.0)",
+    "expected": 0.625,
+    "kind": "near"
+  },
+  {
+    "label": "fox.rank2",
+    "expression": "((Fox.run \u27e8\u27e8List.replicate (Fox.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 2 0.0)",
+    "expected": 0.625,
+    "kind": "near"
+  },
+  {
+    "label": "fox.rank3",
+    "expression": "((Fox.run \u27e8\u27e8List.replicate (Fox.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 3 0.0)",
+    "expected": 1.0,
+    "kind": "near"
+  },
+  {
+    "label": "spider.rank0",
+    "expression": "((Spider.run \u27e8\u27e8List.replicate (Spider.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 0 0.0)",
+    "expected": 0.25,
+    "kind": "near"
+  },
+  {
+    "label": "spider.rank1",
+    "expression": "((Spider.run \u27e8\u27e8List.replicate (Spider.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 1 0.0)",
+    "expected": 0.625,
+    "kind": "near"
+  },
+  {
+    "label": "spider.rank2",
+    "expression": "((Spider.run \u27e8\u27e8List.replicate (Spider.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 2 0.0)",
+    "expected": 0.625,
+    "kind": "near"
+  },
+  {
+    "label": "spider.rank3",
+    "expression": "((Spider.run \u27e8\u27e8List.replicate (Spider.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 3 0.0)",
+    "expected": 1.0,
+    "kind": "near"
+  },
+  {
+    "label": "raven.rank0",
+    "expression": "((Raven.run \u27e8\u27e8List.replicate (Raven.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 0 0.0)",
+    "expected": 0.25,
+    "kind": "near"
+  },
+  {
+    "label": "raven.rank1",
+    "expression": "((Raven.run \u27e8\u27e8List.replicate (Raven.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 1 0.0)",
+    "expected": 0.625,
+    "kind": "near"
+  },
+  {
+    "label": "raven.rank2",
+    "expression": "((Raven.run \u27e8\u27e8List.replicate (Raven.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 2 0.0)",
+    "expected": 0.625,
+    "kind": "near"
+  },
+  {
+    "label": "raven.rank3",
+    "expression": "((Raven.run \u27e8\u27e8List.replicate (Raven.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 3 0.0)",
+    "expected": 1.0,
+    "kind": "near"
+  },
+  {
+    "label": "dolphin.rank0",
+    "expression": "((Dolphin.run \u27e8\u27e8List.replicate (Dolphin.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 0 0.0)",
+    "expected": 0.25,
+    "kind": "near"
+  },
+  {
+    "label": "dolphin.rank1",
+    "expression": "((Dolphin.run \u27e8\u27e8List.replicate (Dolphin.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 1 0.0)",
+    "expected": 0.625,
+    "kind": "near"
+  },
+  {
+    "label": "dolphin.rank2",
+    "expression": "((Dolphin.run \u27e8\u27e8List.replicate (Dolphin.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 2 0.0)",
+    "expected": 0.625,
+    "kind": "near"
+  },
+  {
+    "label": "dolphin.rank3",
+    "expression": "((Dolphin.run \u27e8\u27e8List.replicate (Dolphin.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 3 0.0)",
+    "expected": 1.0,
+    "kind": "near"
+  },
+  {
+    "label": "ant.rank0",
+    "expression": "((Ant.run \u27e8\u27e8List.replicate (Ant.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 0 0.0)",
+    "expected": 0.25,
+    "kind": "near"
+  },
+  {
+    "label": "ant.rank1",
+    "expression": "((Ant.run \u27e8\u27e8List.replicate (Ant.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 1 0.0)",
+    "expected": 0.625,
+    "kind": "near"
+  },
+  {
+    "label": "ant.rank2",
+    "expression": "((Ant.run \u27e8\u27e8List.replicate (Ant.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 2 0.0)",
+    "expected": 0.625,
+    "kind": "near"
+  },
+  {
+    "label": "ant.rank3",
+    "expression": "((Ant.run \u27e8\u27e8List.replicate (Ant.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 3 0.0)",
+    "expected": 1.0,
+    "kind": "near"
+  },
+  {
+    "label": "moth.rank0",
+    "expression": "((Moth.run \u27e8\u27e8List.replicate (Moth.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 0 0.0)",
+    "expected": 0.25,
+    "kind": "near"
+  },
+  {
+    "label": "moth.rank1",
+    "expression": "((Moth.run \u27e8\u27e8List.replicate (Moth.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 1 0.0)",
+    "expected": 0.625,
+    "kind": "near"
+  },
+  {
+    "label": "moth.rank2",
+    "expression": "((Moth.run \u27e8\u27e8List.replicate (Moth.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 2 0.0)",
+    "expected": 0.625,
+    "kind": "near"
+  },
+  {
+    "label": "moth.rank3",
+    "expression": "((Moth.run \u27e8\u27e8List.replicate (Moth.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 3 0.0)",
+    "expected": 1.0,
+    "kind": "near"
+  },
+  {
+    "label": "shark.rank0",
+    "expression": "((Shark.run \u27e8\u27e8List.replicate (Shark.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 0 0.0)",
+    "expected": 0.25,
+    "kind": "near"
+  },
+  {
+    "label": "shark.rank1",
+    "expression": "((Shark.run \u27e8\u27e8List.replicate (Shark.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 1 0.0)",
+    "expected": 0.625,
+    "kind": "near"
+  },
+  {
+    "label": "shark.rank2",
+    "expression": "((Shark.run \u27e8\u27e8List.replicate (Shark.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 2 0.0)",
+    "expected": 0.625,
+    "kind": "near"
+  },
+  {
+    "label": "shark.rank3",
+    "expression": "((Shark.run \u27e8\u27e8List.replicate (Shark.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 3 0.0)",
+    "expected": 1.0,
+    "kind": "near"
+  },
+  {
+    "label": "penguin.rank0",
+    "expression": "((Penguin.run \u27e8\u27e8List.replicate (Penguin.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 0 0.0)",
+    "expected": 0.25,
+    "kind": "near"
+  },
+  {
+    "label": "penguin.rank1",
+    "expression": "((Penguin.run \u27e8\u27e8List.replicate (Penguin.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 1 0.0)",
+    "expected": 0.625,
+    "kind": "near"
+  },
+  {
+    "label": "penguin.rank2",
+    "expression": "((Penguin.run \u27e8\u27e8List.replicate (Penguin.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 2 0.0)",
+    "expected": 0.625,
+    "kind": "near"
+  },
+  {
+    "label": "penguin.rank3",
+    "expression": "((Penguin.run \u27e8\u27e8List.replicate (Penguin.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 3 0.0)",
+    "expected": 1.0,
+    "kind": "near"
+  },
+  {
+    "label": "dragon.rank0",
+    "expression": "((Dragon.run \u27e8\u27e8List.replicate (Dragon.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 0 0.0)",
+    "expected": 0.25,
+    "kind": "near"
+  },
+  {
+    "label": "dragon.rank1",
+    "expression": "((Dragon.run \u27e8\u27e8List.replicate (Dragon.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 1 0.0)",
+    "expected": 0.625,
+    "kind": "near"
+  },
+  {
+    "label": "dragon.rank2",
+    "expression": "((Dragon.run \u27e8\u27e8List.replicate (Dragon.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 2 0.0)",
+    "expected": 0.625,
+    "kind": "near"
+  },
+  {
+    "label": "dragon.rank3",
+    "expression": "((Dragon.run \u27e8\u27e8List.replicate (Dragon.expectedColumns 1) [0.0,1.0,1.0,3.0],4\u27e9,1\u27e9).getD 3 0.0)",
+    "expected": 1.0,
+    "kind": "near"
+  }
+]
