@@ -1,5 +1,11 @@
 # Monolithic Zoo — 46 animals in Lean 4
 
+<!-- ENUMINOUS-NETWORK:START -->
+**eNuminous network:** [All repositories](https://enuminous.github.io/EFMW/repositories.html) · [EFMW](https://enuminous.github.io/EFMW/) · [102 equations](https://github.com/enuminous/Monolithic_102_EFMW) · [165 triplets](https://enuminous.github.io/FieldSpace/) · [Zoo](https://enuminous.github.io/Tortoise/) · [Lean](https://enuminous.github.io/Aristotle-102-Monolithic-Lean/) · [Engine](https://enuminous.github.io/Archimedes-Engine/) · [Papers](https://enuminous.github.io/medium/papers-essays-index.html) · [Audit](https://github.com/enuminous/EFMW_Post156_Zoo_Audit/blob/main/portfolio/INTERLOCK_AUDIT.md)
+
+[Repository](https://github.com/enuminous/Monolithic-Zoo-Lean4) · This repository is linked through its source; GitHub Pages is not enabled.
+<!-- ENUMINOUS-NETWORK:END -->
+
 A strictly flat, GitHub-ready source repository for the original main sequence, TORTOISE through BUTTERFLY. Each animal has its own root-level `.lean` file. All source, configuration, documentation and reference data files are at the repository root; the ZIP has no enclosing folder.
 
 **Status: uncompiled formalization draft.** All 46 animals are represented by selected operational kernels and contracts. This is not a complete translation of all upstream Python pipelines. Seventeen modules implement rank aggregation over supplied feature columns; feature extraction and model training remain unported. See [COVERAGE.md](COVERAGE.md) and [BUILD_STATUS.md](BUILD_STATUS.md).
