@@ -1,6 +1,6 @@
 # Coverage of the 46 main-sequence animals
 
-All theorem scripts are pending Lean compiler verification. Scope is selected kernels and contracts; no complete upstream pipeline equivalence is claimed.
+All included theorem scripts compiled and passed the strict axiom audit at commit `6300fa3b59f357b258e09c7816ad0c15fb1a7935`; see [BUILD_STATUS.md](BUILD_STATUS.md). Scope is selected kernels and contracts; no complete upstream pipeline equivalence is claimed.
 
 | # | Module | Scope |
 |---|---|---|

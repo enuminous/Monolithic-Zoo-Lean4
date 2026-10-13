@@ -10,10 +10,10 @@ names = [r['module'] for r in rows]
 assert len(names) == len(set(names)) == 46
 assert [r['id'] for r in rows] == list(range(1, 47))
 assert names[0] == 'Tortoise' and names[-1] == 'Butterfly'
-allowed_dirs = {'.git', '.lake', '__pycache__'}
+allowed_dirs = {'.git', '.lake', '.github', 'scripts', '__pycache__'}
 assert all(p.is_file() or p.name in allowed_dirs for p in ROOT.iterdir()), 'Unexpected source subdirectory'
 lean_files = list(ROOT.glob('*.lean'))
-assert {p.stem for p in lean_files} == set(names + ['Core', 'Registry', 'Zoo', 'Main', 'Regression', 'ProofAudit', 'lakefile'])
+assert {p.stem for p in lean_files} == set(names + ['Core', 'Registry', 'Zoo', 'Main', 'Regression', 'ProofAudit', 'Audit', 'lakefile'])
 imports = re.findall(r'^import (\S+)', (ROOT / 'Zoo.lean').read_text(), re.M)
 assert imports == names + ['Registry']
 audit = (ROOT / 'ProofAudit.lean').read_text()
@@ -28,9 +28,10 @@ for path in lean_files:
     # Conservative lexical screen, not a Lean parser.
     content = re.sub(r'/\-.*?\-/', '', content, flags=re.S)
     content = re.sub(r'--[^\n]*', '', content)
+    content = re.sub(r'"(?:\\.|[^"\\])*"', '', content)
     assert not re.search(r'\b(sorry|admit|axiom|unsafe|native_decide)\b', content), path
     for module in re.findall(r'^import (\S+)', content, re.M):
-        assert module in {'Std', 'Lake'} or (ROOT / (module + '.lean')).is_file(), module
+        assert module in {'Std', 'Lake', 'Lean'} or (ROOT / (module + '.lean')).is_file(), module
 registry = (ROOT / 'Registry.lean').read_text()
 constructors = re.findall(r'^  \| (\w+)$', registry, re.M)
 assert constructors == [n.lower() for n in names]
@@ -62,4 +63,4 @@ for line in (ROOT / 'MANIFEST_SHA256.txt').read_text().splitlines():
     assert '/' not in name
     assert hashlib.sha256((ROOT / name).read_bytes()).hexdigest() == digest, name
 print(f'Static checks passed: 46 animals, {len(fixtures)} fixture entries, {source_count} original source hashes.')
-print('Lean compilation, proof checking and runtime comparisons remain unverified.')
+print('This command checks static integrity only. Compiler and runtime evidence is recorded in BUILD_STATUS.md.')

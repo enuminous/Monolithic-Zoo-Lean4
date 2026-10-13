@@ -26,6 +26,8 @@ jobs:
         run: lake env lean -DwarningAsError=true Audit.lean
       - name: Test the axiom audit
         run: python3 scripts/test_axiom_audit.py
+      - name: Check static provenance and bundle integrity
+        run: python3 verify.py
       - name: Run the finite reference regressions
         run: lake exe regression
       - name: Run the module roster

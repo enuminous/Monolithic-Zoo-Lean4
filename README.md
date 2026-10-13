@@ -23,7 +23,7 @@
 
 A strictly flat, GitHub-ready source repository for the original main sequence, TORTOISE through BUTTERFLY. Each animal has its own root-level `.lean` file. All source, configuration, documentation and reference data files are at the repository root; the ZIP has no enclosing folder.
 
-**Status: uncompiled formalization draft.** All 46 animals are represented by selected operational kernels and contracts. This is not a complete translation of all upstream Python pipelines. Seventeen modules implement rank aggregation over supplied feature columns; feature extraction and model training remain unported. See [COVERAGE.md](COVERAGE.md) and [BUILD_STATUS.md](BUILD_STATUS.md).
+**Status: compiled and audited selected formalization.** All 46 animals are represented by selected operational kernels and contracts. This is not a complete translation of all upstream Python pipelines. Seventeen modules implement rank aggregation over supplied feature columns; feature extraction and model training remain unported. See [COVERAGE.md](COVERAGE.md) and [BUILD_STATUS.md](BUILD_STATUS.md).
 
 ## Build and check
 
@@ -38,7 +38,7 @@ lake exe regression
 lake env lean ProofAudit.lean
 ```
 
-The reference runner contains 90 comparisons generated from selected pinned upstream Python kernels and pandas rank operations in the preceding draft. They have not been executed against Lean. `ProofAudit.lean` requests theorem dependency reports; inspect output for `sorryAx` and unexpected axioms. Normal Lean foundational axioms must be distinguished from invented assumptions.
+The reference runner contains 90 comparisons generated from selected pinned upstream Python kernels and pandas rank operations in the preceding draft. All 90 comparisons passed in the [verified run](https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38482154688). `Audit.lean` enforces the strict project axiom allowlist, and rejection controls test public/private axioms, `sorryAx` and native proof evaluation. `ProofAudit.lean` remains available for human-readable dependency reports. Normal Lean foundational axioms must be distinguished from invented assumptions.
 
 ## Contents
 
