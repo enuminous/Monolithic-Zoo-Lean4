@@ -19,10 +19,10 @@ Caller-provided predicates and flags are inputs, not global axioms. Examples: CR
 - PHOENIX permits a zero-length hold window; the selected rule preserves that behavior rather than inventing a minimum. A production wrapper should validate configuration separately.
 - Float kernels require the stated finite-input conventions. Negative zero, NaN ordering, and reduction-order roundoff can differ from Python/NumPy. They require additional equivalence analysis.
 
-## Priorities after the build gate
+## Remaining obligations after the successful build
 
-1. Correct any elaboration errors and preserve real compiler logs.
-2. Execute reference fixtures and expand them around numerical edge cases.
+1. Completed: corrected elaboration, checked every selected module and preserved the exact-commit run in BUILD_STATUS.md.
+2. Completed: all 90 existing finite reference fixtures passed. Further numerical edge-case equivalence analysis remains open.
 3. Translate source feature extraction for the seventeen rank-aggregation modules.
 4. Specify and prove the connection between feature extraction, model fitting, and held-out scoring; external ML fitting cannot be assumed verified merely by assigning it a function type.
 5. Formalize error bounds for numeric bridges and separate online from retrospective rank semantics.

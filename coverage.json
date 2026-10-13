@@ -11,10 +11,12 @@
       "split_reconstructs",
       "train_precedes_test"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Tortoise"
+    "source_key": "Tortoise",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 2,
@@ -29,10 +31,12 @@
       "valid_column_count",
       "report_requires_freeze"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Owl"
+    "source_key": "Owl",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 3,
@@ -47,10 +51,12 @@
       "valid_column_count",
       "report_requires_freeze"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Octopus"
+    "source_key": "Octopus",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 4,
@@ -65,10 +71,12 @@
       "valid_column_count",
       "report_requires_freeze"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Gecko"
+    "source_key": "Gecko",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 5,
@@ -83,10 +91,12 @@
       "valid_column_count",
       "report_requires_freeze"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Hive"
+    "source_key": "Hive",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 6,
@@ -101,10 +111,12 @@
       "valid_column_count",
       "report_requires_freeze"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Eagle"
+    "source_key": "Eagle",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 7,
@@ -119,10 +131,12 @@
       "valid_column_count",
       "report_requires_freeze"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Crab"
+    "source_key": "Crab",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 8,
@@ -137,10 +151,12 @@
       "valid_column_count",
       "report_requires_freeze"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Shepherd"
+    "source_key": "Shepherd",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 9,
@@ -155,10 +171,12 @@
       "valid_column_count",
       "report_requires_freeze"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Pulse"
+    "source_key": "Pulse",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 10,
@@ -172,10 +190,12 @@
       "positive_removal_hurt",
       "removal_hurts_iff"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Cat"
+    "source_key": "Cat",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 11,
@@ -190,10 +210,12 @@
       "valid_column_count",
       "report_requires_freeze"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Fox"
+    "source_key": "Fox",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 12,
@@ -208,10 +230,12 @@
       "valid_column_count",
       "report_requires_freeze"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Spider"
+    "source_key": "Spider",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 13,
@@ -226,10 +250,12 @@
       "valid_column_count",
       "report_requires_freeze"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Raven"
+    "source_key": "Raven",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 14,
@@ -244,10 +270,12 @@
       "valid_column_count",
       "report_requires_freeze"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Dolphin"
+    "source_key": "Dolphin",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 15,
@@ -262,10 +290,12 @@
       "valid_column_count",
       "report_requires_freeze"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Ant"
+    "source_key": "Ant",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 16,
@@ -280,10 +310,12 @@
       "valid_column_count",
       "report_requires_freeze"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Moth"
+    "source_key": "Moth",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 17,
@@ -298,10 +330,12 @@
       "valid_column_count",
       "report_requires_freeze"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Shark"
+    "source_key": "Shark",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 18,
@@ -316,10 +350,12 @@
       "valid_column_count",
       "report_requires_freeze"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Penguin"
+    "source_key": "Penguin",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 19,
@@ -332,10 +368,12 @@
     "theorems": [
       "placebo_has_priority"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Bat"
+    "source_key": "Bat",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 20,
@@ -348,10 +386,12 @@
     "theorems": [
       "heldout_not_development"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Hedgehog"
+    "source_key": "Hedgehog",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 21,
@@ -365,10 +405,12 @@
       "common_shift_cancels",
       "causal_requires_design"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Crocodile"
+    "source_key": "Crocodile",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 22,
@@ -383,10 +425,12 @@
       "valid_column_count",
       "report_requires_freeze"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Dragon"
+    "source_key": "Dragon",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 23,
@@ -400,10 +444,12 @@
       "applicable_veto_blocks_support",
       "empty_is_insufficient"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Turtle"
+    "source_key": "Turtle",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 24,
@@ -416,10 +462,12 @@
     "theorems": [
       "no_history_no_alarm"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Magpie"
+    "source_key": "Magpie",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 25,
@@ -432,10 +480,12 @@
     "theorems": [
       "alarm_requires_distributed_support"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Wolf"
+    "source_key": "Wolf",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 26,
@@ -449,10 +499,12 @@
       "current_members_active",
       "zero_fuel_stops"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Elephant"
+    "source_key": "Elephant",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 27,
@@ -466,10 +518,12 @@
       "excess_nonnegative",
       "expected_explains"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Chameleon"
+    "source_key": "Chameleon",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 28,
@@ -482,10 +536,12 @@
     "theorems": [
       "node_count_preserved"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Jellyfish"
+    "source_key": "Jellyfish",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 29,
@@ -499,10 +555,12 @@
       "accepted_requires_rollback",
       "accepted_requires_bounds"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Beaver"
+    "source_key": "Beaver",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 30,
@@ -515,10 +573,12 @@
     "theorems": [
       "unready_calibrates"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Mantis"
+    "source_key": "Mantis",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 31,
@@ -531,10 +591,12 @@
     "theorems": [
       "queue_bounded"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Bison"
+    "source_key": "Bison",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 32,
@@ -547,10 +609,12 @@
     "theorems": [
       "retained_within_budget"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Weasel"
+    "source_key": "Weasel",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 33,
@@ -563,10 +627,12 @@
     "theorems": [
       "exhaustion_not_origin"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Salmon"
+    "source_key": "Salmon",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 34,
@@ -579,10 +645,12 @@
     "theorems": [
       "complete_requires_ack"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Orca"
+    "source_key": "Orca",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 35,
@@ -595,10 +663,12 @@
     "theorems": [
       "no_indicators_no_failure_claim"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Mole"
+    "source_key": "Mole",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 36,
@@ -611,10 +681,12 @@
     "theorems": [
       "emergent_requires_replication"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Lynx"
+    "source_key": "Lynx",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 37,
@@ -627,10 +699,12 @@
     "theorems": [
       "handoff_retains_uncertainty"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Horse"
+    "source_key": "Horse",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 38,
@@ -643,10 +717,12 @@
     "theorems": [
       "population_preserved"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Termite"
+    "source_key": "Termite",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 39,
@@ -659,10 +735,12 @@
     "theorems": [
       "stable_requires_every_checkpoint"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Phoenix"
+    "source_key": "Phoenix",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 40,
@@ -675,10 +753,12 @@
     "theorems": [
       "nonimproving_proxy_zero"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Cobra"
+    "source_key": "Cobra",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 41,
@@ -691,10 +771,12 @@
     "theorems": [
       "empty_history_zero_gap"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Whale"
+    "source_key": "Whale",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 42,
@@ -708,10 +790,12 @@
       "positive_margin_iff_on_time",
       "absent_alarm_no_timing"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Falcon"
+    "source_key": "Falcon",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 43,
@@ -724,10 +808,12 @@
     "theorems": [
       "survives_selected_invariant"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Rhino"
+    "source_key": "Rhino",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 44,
@@ -740,10 +826,12 @@
     "theorems": [
       "mutual_gain_excludes_loser"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Bonobo"
+    "source_key": "Bonobo",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 45,
@@ -756,10 +844,12 @@
     "theorems": [
       "acceptable_retains_invariants"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Axolotl"
+    "source_key": "Axolotl",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   },
   {
     "id": 46,
@@ -772,9 +862,11 @@
     "theorems": [
       "run_records_initial_and_steps"
     ],
-    "proof_status": "written; not compiler-checked in this environment",
+    "proof_status": "compiler-checked and strict-axiom-audited at 44d9881e8878a702fdfa47da53d80436276d92a6",
     "numbering": "main-sequence reference",
     "source_bundle": "UPSTREAM_SOURCES.json",
-    "source_key": "Butterfly"
+    "source_key": "Butterfly",
+    "verified_commit": "44d9881e8878a702fdfa47da53d80436276d92a6",
+    "verified_run": "https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38484522045"
   }
 ]
