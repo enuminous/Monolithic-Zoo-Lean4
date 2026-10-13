@@ -17,7 +17,7 @@ structure Timing where
   missed : Bool
   deriving Repr
 def latency (event hazard : Int) (alarm : Option Int) (delay : Int) : Option Timing :=
-  alarm.map (fun a => ⟨a-event, delay, reactionMargin hazard a delay, decide (Missed hazard a delay)⟩)
+  alarm.map (fun a => ⟨a-event, delay, reactionMargin hazard a delay, decide (hazard ≤ a + delay)⟩)
 theorem absent_alarm_no_timing (e h d : Int) : latency e h none d = none := rfl
 
 
