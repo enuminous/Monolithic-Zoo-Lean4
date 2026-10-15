@@ -21,7 +21,7 @@
 </details>
 <!-- ENUMINOUS-NETWORK:END -->
 
-A strictly flat, GitHub-ready source repository for the original main sequence, TORTOISE through BUTTERFLY. Each animal has its own root-level `.lean` file. All source, configuration, documentation and reference data files are at the repository root; the ZIP has no enclosing folder.
+A shared Lean 4 package for the original main sequence, TORTOISE through BUTTERFLY, and separately tracked extension models. Each original animal has a root-level `.lean` file. The pinned Python source snapshots make the verification scope reproducible.
 
 **Status: compiled and audited selected formalization.** All 46 animals are represented by selected operational kernels and contracts. This is not a complete translation of all upstream Python pipelines. Seventeen modules implement rank aggregation over supplied feature columns; feature extraction and model training remain unported. See [COVERAGE.md](COVERAGE.md) and [BUILD_STATUS.md](BUILD_STATUS.md).
 
@@ -35,7 +35,11 @@ lake build
 lake build zoo46 regression
 lake exe zoo46
 lake exe regression
-lake env lean ProofAudit.lean
+lake env lean -DwarningAsError=true Audit.lean
+python3 scripts/test_axiom_audit.py
+python3 scripts/extension_fixtures.py
+python3 scripts/report_fixtures.py
+lake env lean -DwarningAsError=true .lake/SourceReportFixtures.lean
 ```
 
 The reference runner contains 90 comparisons generated from selected pinned upstream Python kernels and pandas rank operations in the preceding draft. All 90 comparisons passed in the [verified run](https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38482154688). `Audit.lean` enforces the strict project axiom allowlist, and rejection controls test public/private axioms, `sorryAx` and native proof evaluation. `ProofAudit.lean` remains available for human-readable dependency reports. Normal Lean foundational axioms must be distinguished from invented assumptions.
@@ -49,11 +53,11 @@ The reference runner contains 90 comparisons generated from selected pinned upst
 - `UPSTREAM_SOURCES.json` embeds selected original source files and license notices with their original paths and Git blob hashes. These paths are metadata, not repository directories.
 - `verify.py` checks static consistency and integrity. It does not run Lean.
 
-The source tree is flat. Lake and Git create their own local working directories when used. An active GitHub Actions workflow would require a nested `.github/workflows` directory, so it is not included in this strictly flat version.
+The active [verification workflow](.github/workflows/lean.yml) builds the pinned package, audits declarations and rejection controls, reproduces source certificates, and runs the finite numerical regressions.
 
-## GitHub
+## Reproducibility
 
-Extract the ZIP into an empty directory and upload its files to a new GitHub repository, or initialize Git there and push to your chosen remote. This archive has not been published to GitHub.
+Clone this repository and use its pinned toolchain. A successful [Actions run](https://github.com/enuminous/Monolithic-Zoo-Lean4/actions) identifies the exact tested commit; the build is evidence only for the stated coverage.
 
 ## Interpretation
 
@@ -61,4 +65,4 @@ Contracts express explicit assumptions; they do not establish that real systems 
 
 ## Extension decision coverage
 
-[Five extension decision procedures](EXTENSION_COVERAGE.md) now have Lean models, source-pinned finite certificates, and the same CI axiom audit. Their numerical and data pipelines remain separate obligations. The historical roster remains 46.
+[Five extension decision procedures](EXTENSION_COVERAGE.md) now have Lean models, source-pinned finite certificates, and the same CI axiom audit. [Structured report models](SOURCE_RECORD_COVERAGE.md) additionally cover full Chimera returns and Circus/Monster input-list processing, with 1,432 source-executed certificates. Their numerical and data pipelines remain separate obligations. The historical roster remains 46.

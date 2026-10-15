@@ -6,9 +6,9 @@ file, and Git blob hash. The names and branch order come from those sources.
 
 | Extension | Formalized decision stage | Still outside the proof |
 |---|---|---|
-| Chimera | Ordered tags, fallback U, nonempty output, and K exactly when both key and recovery map are declared. All 128 Boolean inputs are compared with the source classifier. | Truth of declarations, object/interaction metadata, notes and JSON parsing. |
-| Circus | FAIL takes priority over missing evidence; PASS requires a check. Finite certificates compare source reports with the corresponding summary. | Formal proof that arbitrary JSON reports produce the summary, provenance truth and actual independence. |
-| Zoo-Monster | Eligibility, demonstrated-violation precedence, missing-cell and unknown-boundary gates. Source reports provide finite certificates. | Numeric tolerance computation, arbitrary JSON parsing, envelope statistics and scientific adequacy. |
+| Chimera | Ordered tags, fallback U, nonempty output, K requirements, metadata, notes and warning text. Full returns are compared on all 128 Boolean inputs; the two typed Lean classifier models are universally equivalent. | Truth of declarations, incorrectly typed arguments and JSON parsing. |
+| Circus | Typed report lists compute their summaries. FAIL precedence, nonempty checks and completeness of every check are proved; material N/A risks fail. Full report certificates execute the pinned source. | Arbitrary JSON/coercion behavior, provenance truth and actual independence. |
+| Zoo-Monster | Typed report filtering, eligibility, violation precedence, missing cells, boundaries and exact integer threshold/interval comparisons. Full report certificates execute the pinned source. | Floating-point comparisons, arbitrary JSON parsing/coercion, envelope statistics and scientific adequacy. |
 | Woodpecker | Validation veto and the ordered redundant/necessary/contributory decision. Frozen numeric examples are evaluated by the actual source, then their comparison results are passed to the Lean gate. | Floating-point threshold arithmetic, input conversion, statistical sufficiency and arbitrary-input implementation equivalence. |
 | Nightengale / Nightingale | `_grow` stop-condition precedence and continuation exactly when all four tests are false. | Quantiles, ALE, bootstrap, empty-bin interpolation, prediction functions and recursion over data. |
 
@@ -25,6 +25,8 @@ the generated equalities using ordinary kernel reduction. These fixture
 certificates are software conformance checks, not independent scientific
 discoveries or a proof of the Python interpreter.
 
+See [structured source coverage](SOURCE_RECORD_COVERAGE.md) for the exact domains of `SourceRecords.lean` and its additional 1,432 certificates.
+
 ## Verification
 
 ```sh
@@ -32,11 +34,13 @@ python3 scripts/extension_fixtures.py
 lake build
 lake env lean -DwarningAsError=true Audit.lean
 python3 scripts/test_axiom_audit.py
+python3 scripts/report_fixtures.py
+lake env lean -DwarningAsError=true .lake/SourceReportFixtures.lean
 python3 verify.py
 lake exe regression
 ```
 
-The existing [workflow](.github/workflows/lean.yml) builds and audits both new
+The existing [workflow](.github/workflows/lean.yml) builds and audits all extension
 modules, including every fixture declaration. Its standard-axiom allowlist and
 negative controls remain in effect. Exact-commit CI is the publication gate.
 Local authoring may use the unmodified Lean 4.28 kernel with an explicit-path
