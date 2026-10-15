@@ -28,6 +28,10 @@ jobs:
         run: python3 scripts/test_axiom_audit.py
       - name: Reproduce extension decision certificates from frozen sources
         run: python3 scripts/extension_fixtures.py
+      - name: Compare complete structured reports with frozen Python
+        run: |
+          python3 scripts/report_fixtures.py
+          lake env lean -DwarningAsError=true .lake/SourceReportFixtures.lean
       - name: Check static provenance and bundle integrity
         run: python3 verify.py
       - name: Run the finite reference regressions
