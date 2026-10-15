@@ -135,8 +135,8 @@ theorem pass_checks_complete (r : Report) (h : decideReport r = .pass)
     c.status = some "passed" ∧ c.frozen = true ∧ c.independentlySourced = true := by
   have hs := (pass_iff_summary (summarize r)).mp h
   have hz : r.checks.any badCheck = false := hs.2.2.2.2.2.2.1
-  have hn : badCheck c = false := (List.any_eq_false.mp hz) c hc
-  simpa [badCheck] using hn
+  have hn : badCheck c = false := by simpa using (List.any_eq_false.mp hz) c hc
+  simpa [badCheck, and_assoc] using hn
 
 /-- A material N/A risk is in the fail set in the actual source. Missing
 checks cannot conceal it. -/
