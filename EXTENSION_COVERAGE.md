@@ -36,6 +36,8 @@ lake env lean -DwarningAsError=true Audit.lean
 python3 scripts/test_axiom_audit.py
 python3 scripts/report_fixtures.py
 lake env lean -DwarningAsError=true .lake/SourceReportFixtures.lean
+python3 scripts/threshold_fixtures.py
+lake env lean -DwarningAsError=true .lake/ThresholdFixtures.lean
 python3 verify.py
 lake exe regression
 ```
@@ -54,5 +56,5 @@ not close full implementation equivalence for the Zoo. The original
 their upstream feature extraction connected to the score, fitting/scoring
 pipelines need specifications, and NumPy/Lean floating-point behavior needs an
 explicit numerical contract. Caller-supplied evidence flags are not evidence
-that the conditions happened. No unsupported source behavior was repaired in
-this tranche.
+that the conditions happened. The published Nightingale row-alignment repair is separately tested and
+pinned; numerical pipeline equivalence is still not claimed.
