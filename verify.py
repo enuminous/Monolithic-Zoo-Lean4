@@ -13,7 +13,7 @@ assert names[0] == 'Tortoise' and names[-1] == 'Butterfly'
 allowed_dirs = {'.git', '.lake', '.github', 'scripts', '__pycache__'}
 assert all(p.is_file() or p.name in allowed_dirs for p in ROOT.iterdir()), 'Unexpected source subdirectory'
 lean_files = list(ROOT.glob('*.lean'))
-assert {p.stem for p in lean_files} == set(names + ['Core', 'Registry', 'Zoo', 'Main', 'Regression', 'ProofAudit', 'Audit', 'lakefile'])
+assert {p.stem for p in lean_files} == set(names + ['Core', 'Registry', 'Zoo', 'Main', 'Regression', 'ProofAudit', 'Audit', 'lakefile', 'Extensions', 'ExtensionFixtures'])
 imports = re.findall(r'^import (\S+)', (ROOT / 'Zoo.lean').read_text(), re.M)
 assert imports == names + ['Registry']
 audit = (ROOT / 'ProofAudit.lean').read_text()

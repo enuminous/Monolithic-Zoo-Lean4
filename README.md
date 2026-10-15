@@ -58,3 +58,7 @@ Extract the ZIP into an empty directory and upload its files to a new GitHub rep
 ## Interpretation
 
 Contracts express explicit assumptions; they do not establish that real systems satisfy those assumptions. Formal verification can validate specified software properties. It cannot establish EFMW as new physics. Numerical equivalence and empirical claims require separate evidence. See [FORMALIZATION_NOTES.md](FORMALIZATION_NOTES.md).
+
+## Extension decision coverage
+
+[Five extension decision procedures](EXTENSION_COVERAGE.md) now have Lean models, source-pinned finite certificates, and the same CI axiom audit. Their numerical and data pipelines remain separate obligations. The historical roster remains 46.
