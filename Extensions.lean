@@ -135,5 +135,28 @@ theorem continue_iff (a b c d : Bool) :
 
 theorem support_has_priority (a b c : Bool) :
     stop true a b c = .insufficientSupport := by rfl
+/-- `fit` has no bootstrap-stability test: its root rule differs from `_grow`. -/
+def rootStop (smallSupport smallEffect : Bool) (maxDepth : Nat) : Stop :=
+  if smallSupport then .insufficientSupport
+  else if smallEffect then .belowTolerance
+  else if maxDepth ≤ 1 then .maxDepth else .continueGrowing
+
+theorem root_continue_iff (a b : Bool) (maxDepth : Nat) :
+    rootStop a b maxDepth = .continueGrowing ↔
+      a = false ∧ b = false ∧ 1 < maxDepth := by
+  cases a <;> cases b <;> simp [rootStop] <;> omega
+
+theorem zero_depth_still_has_root_stop : rootStop false false 0 = .maxDepth := by rfl
+
+/-- The source's integer guard is checked before constructing recursive nodes. -/
+def visitDepth (depth maxDepth : Nat) : Bool := decide (depth ≤ maxDepth)
+
+theorem beyond_max_is_empty (depth maxDepth : Nat) (h : maxDepth < depth) :
+    visitDepth depth maxDepth = false := by simp [visitDepth]; omega
+
+/-- Every actual recursive continuation decreases the remaining depth budget.
+This is a termination measure, independent of the estimated numerical effects. -/
+theorem recursion_budget_decreases (depth maxDepth : Nat) (h : depth < maxDepth) :
+    maxDepth-(depth+1) < maxDepth-depth := by omega
 end Nightingale
 end Zoo.Extensions

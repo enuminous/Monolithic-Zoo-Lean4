@@ -51,13 +51,14 @@ import Zoo
 import Extensions
 import ExtensionFixtures
 import SourceRecords
+import ExactThresholds
 
 /-! Audit every safe declaration defined in the listed project modules. -/
 
 open Lean in
 run_cmd do
   let env ← getEnv
-  let modules : Array Name := #[`Ant, `Axolotl, `Bat, `Beaver, `Bison, `Bonobo, `Butterfly, `Cat, `Chameleon, `Cobra, `Core, `Crab, `Crocodile, `Dolphin, `Dragon, `Eagle, `Elephant, `Falcon, `Fox, `Gecko, `Hedgehog, `Hive, `Horse, `Jellyfish, `Lynx, `Magpie, `Mantis, `Mole, `Moth, `Octopus, `Orca, `Owl, `Penguin, `Phoenix, `Pulse, `Raven, `Registry, `Rhino, `Salmon, `Shark, `Shepherd, `Spider, `Termite, `Tortoise, `Turtle, `Weasel, `Whale, `Wolf, `Zoo, `Extensions, `ExtensionFixtures, `SourceRecords]
+  let modules : Array Name := #[`Ant, `Axolotl, `Bat, `Beaver, `Bison, `Bonobo, `Butterfly, `Cat, `Chameleon, `Cobra, `Core, `Crab, `Crocodile, `Dolphin, `Dragon, `Eagle, `Elephant, `Falcon, `Fox, `Gecko, `Hedgehog, `Hive, `Horse, `Jellyfish, `Lynx, `Magpie, `Mantis, `Mole, `Moth, `Octopus, `Orca, `Owl, `Penguin, `Phoenix, `Pulse, `Raven, `Registry, `Rhino, `Salmon, `Shark, `Shepherd, `Spider, `Termite, `Tortoise, `Turtle, `Weasel, `Whale, `Wolf, `Zoo, `Extensions, `ExtensionFixtures, `SourceRecords, `ExactThresholds]
   let allowed : Array Name := #[``propext, ``Classical.choice, ``Quot.sound]
   let mut count := 0
   let mut theoremCount := 0

@@ -630,5 +630,21 @@ theorem nightingale_0012 : Nightingale.stop true true false false = .insufficien
 theorem nightingale_0013 : Nightingale.stop true true false true = .insufficientSupport := by decide
 theorem nightingale_0014 : Nightingale.stop true true true false = .insufficientSupport := by decide
 theorem nightingale_0015 : Nightingale.stop true true true true = .insufficientSupport := by decide
+theorem nightingale_root_0000 : Nightingale.rootStop false false 0 = .maxDepth := by decide
+theorem nightingale_root_0001 : Nightingale.rootStop false false 1 = .maxDepth := by decide
+theorem nightingale_root_0002 : Nightingale.rootStop false false 2 = .continueGrowing := by decide
+theorem nightingale_root_0003 : Nightingale.rootStop false false 4 = .continueGrowing := by decide
+theorem nightingale_root_0004 : Nightingale.rootStop false true 0 = .belowTolerance := by decide
+theorem nightingale_root_0005 : Nightingale.rootStop false true 1 = .belowTolerance := by decide
+theorem nightingale_root_0006 : Nightingale.rootStop false true 2 = .belowTolerance := by decide
+theorem nightingale_root_0007 : Nightingale.rootStop false true 4 = .belowTolerance := by decide
+theorem nightingale_root_0008 : Nightingale.rootStop true false 0 = .insufficientSupport := by decide
+theorem nightingale_root_0009 : Nightingale.rootStop true false 1 = .insufficientSupport := by decide
+theorem nightingale_root_0010 : Nightingale.rootStop true false 2 = .insufficientSupport := by decide
+theorem nightingale_root_0011 : Nightingale.rootStop true false 4 = .insufficientSupport := by decide
+theorem nightingale_root_0012 : Nightingale.rootStop true true 0 = .insufficientSupport := by decide
+theorem nightingale_root_0013 : Nightingale.rootStop true true 1 = .insufficientSupport := by decide
+theorem nightingale_root_0014 : Nightingale.rootStop true true 2 = .insufficientSupport := by decide
+theorem nightingale_root_0015 : Nightingale.rootStop true true 4 = .insufficientSupport := by decide
 
 end Zoo.ExtensionFixtures

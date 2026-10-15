@@ -66,3 +66,8 @@ Contracts express explicit assumptions; they do not establish that real systems 
 ## Extension decision coverage
 
 [Five extension decision procedures](EXTENSION_COVERAGE.md) now have Lean models, source-pinned finite certificates, and the same CI axiom audit. [Structured report models](SOURCE_RECORD_COVERAGE.md) additionally cover full Chimera returns and Circus/Monster input-list processing, with 1,432 source-executed certificates. Their numerical and data pipelines remain separate obligations. The historical roster remains 46.
+
+[Exact threshold arithmetic](EXACT_ARITHMETIC.md) now covers WOODPECKER's
+integer-scaled rational comparisons and 2,100 source certificates. Nightingale's
+root stopping rule and recursive depth budget are also checked; its source pin
+includes the published fix that preserves row coordinates during recursion.

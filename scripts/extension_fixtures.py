@@ -127,6 +127,27 @@ labels = {None: "continueGrowing", "insufficient_local_support": "insufficientSu
 for vals in itertools.product([False, True], repeat=4):
     cert("nightingale", "Nightingale.stop " + " ".join(bs([v]) for v in vals), "." + labels[scope["projected"](*vals)])
 
+# The root fit rule has three branches and no bootstrap predicate.
+fit = next(n for n in ast.walk(tree) if isinstance(n, ast.FunctionDef) and n.name == "fit")
+branch = copy.deepcopy(next(n for n in ast.walk(fit) if isinstance(n, ast.If) and
+    isinstance(n.test, ast.Call) and ast.unparse(n.test).startswith("np.any(counts")))
+node = branch
+for name in ["smallSupport", "smallEffect"]:
+    node.test = ast.Name(id=name, ctx=ast.Load())
+    assert len(node.body) == 1 and isinstance(node.body[0], ast.Assign)
+    assert len(node.orelse) == 1 and isinstance(node.orelse[0], ast.If)
+    node = node.orelse[0]
+assert ast.unparse(node.test) == "self.max_depth <= 1"
+node.test = ast.parse("maxDepth <= 1", mode="eval").body
+assert not node.orelse
+fn = ast.parse("def projected_root(smallSupport, smallEffect, maxDepth):\n reason = None\n return reason\n")
+fn.body[0].body.insert(1, branch)
+ast.fix_missing_locations(fn)
+exec(compile(fn, "<Nightingale root stop projection>", "exec"), scope)
+for a, b, depth in itertools.product([False, True], [False, True], [0, 1, 2, 4]):
+    cert("nightingale_root", f"Nightingale.rootStop {str(a).lower()} {str(b).lower()} {depth}",
+         "." + labels[scope["projected_root"](a, b, depth)])
+
 out += ["", "end Zoo.ExtensionFixtures", ""]
 text = "\n".join(out)
 target = ROOT / "ExtensionFixtures.lean"

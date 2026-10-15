@@ -9,14 +9,14 @@ file, and Git blob hash. The names and branch order come from those sources.
 | Chimera | Ordered tags, fallback U, nonempty output, K requirements, metadata, notes and warning text. Full returns are compared on all 128 Boolean inputs; the two typed Lean classifier models are universally equivalent. | Truth of declarations, incorrectly typed arguments and JSON parsing. |
 | Circus | Typed report lists compute their summaries. FAIL precedence, nonempty checks and completeness of every check are proved; material N/A risks fail. Full report certificates execute the pinned source. | Arbitrary JSON/coercion behavior, provenance truth and actual independence. |
 | Zoo-Monster | Typed report filtering, eligibility, violation precedence, missing cells, boundaries and exact integer threshold/interval comparisons. Full report certificates execute the pinned source. | Floating-point comparisons, arbitrary JSON parsing/coercion, envelope statistics and scientific adequacy. |
-| Woodpecker | Validation veto and the ordered redundant/necessary/contributory decision. Frozen numeric examples are evaluated by the actual source, then their comparison results are passed to the Lean gate. | Floating-point threshold arithmetic, input conversion, statistical sufficiency and arbitrary-input implementation equivalence. |
-| Nightengale / Nightingale | `_grow` stop-condition precedence and continuation exactly when all four tests are false. | Quantiles, ALE, bootstrap, empty-bin interpolation, prediction functions and recursion over data. |
+| Woodpecker | Validation veto; exact integer-scaled rational threshold arithmetic; iff characterizations of all outcomes; metric-direction reversal; 2,100 full-arithmetic source certificates. | Arbitrary binary64 arithmetic, input conversion, output formatting, statistical sufficiency and full Python equivalence. |
+| Nightengale / Nightingale | `_grow` and `fit` stop precedence, root continuation, recursive depth guard and decreasing depth budget. Source pin includes the tested row-alignment/empty-input fix. | Quantiles, ALE, bootstrap, interpolation, prediction functions and full tree implementation equivalence. |
 
 Nightingale's certificate generator extracts the four `if`/`elif` branches and
 their literal stop reasons from the frozen Python AST. It treats the four tests
 as Boolean inputs. This is explicitly a **branch projection**, not an execution
-or verification of its numerical pipeline. The root-level stopping rule in
-`fit` is also outside this projection.
+or verification of its numerical pipeline. The distinct root-level rule in `fit` is now projected separately; it has no
+bootstrap test. See [exact arithmetic and new control results](EXACT_ARITHMETIC.md).
 
 The generator executes the pinned Chimera, Circus, Monster and Woodpecker source
 files in process. It verifies all source blob hashes, reconstructs the finite
@@ -41,7 +41,7 @@ lake exe regression
 ```
 
 The existing [workflow](.github/workflows/lean.yml) builds and audits all extension
-modules, including every fixture declaration. Its standard-axiom allowlist and
+modules, including every fixture declaration, plus the 2,100 generated threshold certificates. Its standard-axiom allowlist and
 negative controls remain in effect. Exact-commit CI is the publication gate.
 Local authoring may use the unmodified Lean 4.28 kernel with an explicit-path
 launcher; the required hosted build uses the repository's pinned Lean 4.19.

@@ -32,6 +32,10 @@ jobs:
         run: |
           python3 scripts/report_fixtures.py
           lake env lean -DwarningAsError=true .lake/SourceReportFixtures.lean
+      - name: Check exact threshold arithmetic against frozen Python
+        run: |
+          python3 scripts/threshold_fixtures.py
+          lake env lean -DwarningAsError=true .lake/ThresholdFixtures.lean
       - name: Check static provenance and bundle integrity
         run: python3 verify.py
       - name: Run the finite reference regressions
