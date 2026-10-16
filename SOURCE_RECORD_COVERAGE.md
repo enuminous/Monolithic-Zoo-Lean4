@@ -28,8 +28,13 @@ They are not a proof of the Python VM, arbitrary JSON input, IEEE arithmetic,
 scientific truth of supplied observations, or the remaining 46-animal feature,
 fitting and evaluation pipelines.
 
-Evidence is **unresolved** until the exact commit's workflow passes; after that,
-the stated Lean theorems and finite certificates are **demonstrated**.
+The stated Lean theorems and finite certificates are **demonstrated** for
+commit [`0d616cd`](https://github.com/enuminous/Monolithic-Zoo-Lean4/commit/0d616cd62cc9f061ff02b239eb2c7b3eb14a391d),
+whose complete [verification run 38831479150](https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38831479150)
+passed. That commit repairs only the proof of CIRCUS check completeness and its
+manifest checksum; the report semantics and frozen sources are unchanged.
+The theorem checks the reported fields, not the authenticity or real-world
+independence of the supplied evidence. See [BUILD_STATUS.md](BUILD_STATUS.md).
 Full implementation equivalence across all Zoo repositories remains
 **supported but incomplete**, with the remaining boundaries in
 `FORMALIZATION_NOTES.md` and `EXTENSION_COVERAGE.md`.
