@@ -1,0 +1,17 @@
+{
+  "claims": [
+    {
+      "id": "ME-007-BIANCHI",
+      "target": "https://github.com/enuminous/Monolithic-102-Zoo-Lean4/blob/01f51acb0b0e564105dcf7f14cc55998d41b91ce/Monolithic102/ME007.lean",
+      "obligation_inventory_complete": false,
+      "mandatory_obligations": [
+        "geometric_definitions",
+        "informational_tensor_dynamics",
+        "total_source_conservation"
+      ],
+      "obligations": {},
+      "results": {},
+      "dependencies": []
+    }
+  ]
+}

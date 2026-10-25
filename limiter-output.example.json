@@ -1,0 +1,409 @@
+{
+  "schema_version": 1,
+  "report_kind": "alternative_zoo_limiter",
+  "policy_id": "alternative-zoo-limiter-v1",
+  "policy_sha256": "ee87ecefb9f10c30eea31d7f9998172aa8b4775a36351df39f45822743cc99ae",
+  "input_sha256": "f93722b87441ae3feed3c88aa16b545dc9183650c1e91a46fdbe9e314a2e8bee",
+  "semantics": "ESTABLISHED means this evidence-coverage policy is satisfied; it does not certify truth, physics or independent replication. Supplied evidence references are not independently verified by this aggregator.",
+  "claims": [
+    {
+      "id": "ME-007-BIANCHI",
+      "target": "https://github.com/enuminous/Monolithic-102-Zoo-Lean4/blob/01f51acb0b0e564105dcf7f14cc55998d41b91ce/Monolithic102/ME007.lean",
+      "counts": {
+        "PASS": 0,
+        "FAIL": 0,
+        "UNRESOLVED": 46,
+        "N/A": 0
+      },
+      "fractions": {
+        "d": {
+          "numerator": 0,
+          "denominator": 46
+        },
+        "u": {
+          "numerator": 46,
+          "denominator": 46
+        },
+        "i": {
+          "numerator": 0,
+          "denominator": 46
+        }
+      },
+      "results": [
+        {
+          "animal": "TORTOISE",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "OWL",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "OCTOPUS",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "GECKO",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "HIVE",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "EAGLE",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "CRAB",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "SHEPHERD",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "PULSE",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "CAT",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "FOX",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "SPIDER",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "RAVEN",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "DOLPHIN",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "ANT",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "MOTH",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "SHARK",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "PENGUIN",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "BAT",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "HEDGEHOG",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "CROCODILE",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "DRAGON",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "TURTLE",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "MAGPIE",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "WOLF",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "ELEPHANT",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "CHAMELEON",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "JELLYFISH",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "BEAVER",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "MANTIS",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "BISON",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "WEASEL",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "SALMON",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "ORCA",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "MOLE",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "LYNX",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "HORSE",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "TERMITE",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "PHOENIX",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "COBRA",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "WHALE",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "FALCON",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "RHINO",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "BONOBO",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "AXOLOTL",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        {
+          "animal": "BUTTERFLY",
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        }
+      ],
+      "mandatory_obligations": [
+        "geometric_definitions",
+        "informational_tensor_dynamics",
+        "total_source_conservation"
+      ],
+      "obligations": {
+        "geometric_definitions": {
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        "informational_tensor_dynamics": {
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        },
+        "total_source_conservation": {
+          "status": "UNRESOLVED",
+          "declared_status": null,
+          "reason": "MISSING_RESULT",
+          "evidence": []
+        }
+      },
+      "blocked_obligations": [
+        "geometric_definitions",
+        "informational_tensor_dynamics",
+        "total_source_conservation"
+      ],
+      "local_status": "QUALIFIED",
+      "local_reasons": [
+        "DETERMINED_BELOW_THRESHOLD",
+        "UNRESOLVED_ABOVE_THRESHOLD",
+        "MANDATORY_OBLIGATION_NOT_PASSED",
+        "OBLIGATION_INVENTORY_INCOMPLETE"
+      ],
+      "dependencies": [],
+      "propagated_status": "QUALIFIED",
+      "reasons": [
+        "DETERMINED_BELOW_THRESHOLD",
+        "UNRESOLVED_ABOVE_THRESHOLD",
+        "MANDATORY_OBLIGATION_NOT_PASSED",
+        "OBLIGATION_INVENTORY_INCOMPLETE"
+      ],
+      "blockers": {
+        "missing_dependencies": [],
+        "qualified_ancestors": [],
+        "cycle_members": []
+      },
+      "affected_descendants": []
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 # Monolithic Zoo — 46 animals in Lean 4
 
+**Alternative coverage report:** [four-state limiter](ALTERNATIVE_REPORT.md) · [policy](limiter-policy.json) · [executable example output](limiter-output.example.json). This is separate from the main Zoo report.
+
 <!-- ENUMINOUS-NETWORK:START -->
 **eNuminous network:** [All repositories](https://enuminous.github.io/EFMW/repositories.html) · [EFMW](https://enuminous.github.io/EFMW/) · [102 equations](https://github.com/enuminous/Monolithic_102_EFMW) · [165 triplets](https://enuminous.github.io/FieldSpace/) · [Zoo](https://enuminous.github.io/Tortoise/) · [Lean](https://enuminous.github.io/Aristotle-102-Monolithic-Lean/) · [Engine](https://enuminous.github.io/Archimedes-Engine/) · [Papers](https://enuminous.github.io/medium/papers-essays-index.html) · [Audit](https://github.com/enuminous/EFMW_Post156_Zoo_Audit/blob/main/portfolio/INTERLOCK_AUDIT.md)
 

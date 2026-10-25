@@ -38,6 +38,11 @@ jobs:
           lake env lean -DwarningAsError=true .lake/ThresholdFixtures.lean
       - name: Check static provenance and bundle integrity
         run: python3 verify.py
+      - name: Test alternative limiter report and reproduce example output
+        run: |
+          python3 scripts/test_alternative_report.py
+          python3 scripts/alternative_report.py limiter-input.example.json > /tmp/limiter-output.json
+          diff -u limiter-output.example.json /tmp/limiter-output.json
       - name: Run the finite reference regressions
         run: lake exe regression
       - name: Run the module roster
